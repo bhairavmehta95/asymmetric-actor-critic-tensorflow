@@ -68,7 +68,7 @@ class Memory(object):
         terminal1_batch = self.terminals1.get_batch(batch_idxs)
 
         states0_batch = self.states.get_batch(batch_idxs)
-        states1_batch - self.states.get_batch(batch_idxs)
+        states1_batch = self.states.get_batch(batch_idxs)
         goals_batch = self.goals.get_batch(batch_idxs)
         goalobs_batch = self.goal_observations.get_batch(batch_idxs)
 
